@@ -2,5 +2,7 @@ package com.example.backend.services;
 
 
 public interface TestService {
-    String[] solve(int key);
+    String[] sort(String[] strings, int key);
+
+    String[] generate();
 }
